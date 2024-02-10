@@ -303,9 +303,9 @@ local Button = ScriptsTab:CreateButton({
 })
 
 local Button = ScriptsTab:CreateButton({
-   Name = "Evade",
+   Name = "Evade Key:eqRYZmvsefMPfHeEth2UIn5xumasm33UPbqQ2V7D99GgzRGtzVxI3yPbsVhYa74C",
    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
    end,
 })
 
@@ -323,7 +323,7 @@ local Button = ScriptsTab:CreateButton({
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = ScriptsTab:CreateButton({
    Name = "Blox fruits",
    Callback = function()
        loadstring(game:HttpGet("https://shz.al/~Bountyscriptbloxfruits"))()
@@ -334,5 +334,35 @@ local Button = ScriptsTab:CreateButton({
    Name = "Blox Fruits",
    Callback = function()
         loadstring(game:HttpGet("https://shz.al/~Omgbloxfruits"))()
+   end,
+})
+local Button = ScriptsTab:CreateButton({
+   Name = "Strongman simulator",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/hngamingroblox/scripts/main/strongman%20simulator'))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "DOORS",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Fruit battleGrounds",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/FruitBattlegrounds"))()
+   end,
+})
+
+local GoodscriptsTab = Window:CreateTab("good scripts", nil) -- Title, Image
+local Section = GoodscriptsTab:CreateSection("good scripts")
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "Fruit notifier",
+   Callback = function()
+        loadstring(game:HttpGet("https://github.com/euyogi/Prototipo-YogiNotificadorFruta/raw/main/YogiNotificadorFruta.lua"))()
    end,
 })
