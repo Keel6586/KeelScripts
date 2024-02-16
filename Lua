@@ -361,8 +361,64 @@ local GoodscriptsTab = Window:CreateTab("good scripts", nil) -- Title, Image
 local Section = GoodscriptsTab:CreateSection("good scripts")
 
 local Button = GoodscriptsTab:CreateButton({
-   Name = "Fruit notifier",
+   Name = "scriptHub",
    Callback = function()
-        loadstring(game:HttpGet("https://github.com/euyogi/Prototipo-YogiNotificadorFruta/raw/main/YogiNotificadorFruta.lua"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/18ji1xzk"))();
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "Natural Disaster",
+   Callback = function()
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "ohio.",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/AlphaOhio"))()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "Starving Artist",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/StarvingArtist.lua"))()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "pet sim 99",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4k4rr/iloveyou/main/PS99"))()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "Flicker",
+   Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/dxwn1Hvz'),true))()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "Prison Life",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "The Mimic key ThankFor5kOnYoutubeAndDiscord",
+   Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain")()
+   end,
+})
+
+local Button = GoodscriptsTab:CreateButton({
+   Name = "DestructionSim",
+   Callback = function()       
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FadeRemix/RND-Games/main/DestructionSim.lua"))()
    end,
 })
