@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "KeelHub",
+   Name = "KeelHub KEYLESS THANKS FOR BOOSTING OR JUST BEING STAFFDO NOT LEAK PLS",
    LoadingTitle = "KeelHub",
    LoadingSubtitle = "by KEEL",
    ConfigurationSaving = {
@@ -410,7 +410,7 @@ local Button = GoodscriptsTab:CreateButton({
 })
 
 local Button = GoodscriptsTab:CreateButton({
-   Name = "The Mimic key ThankFor5kOnYoutubeAndDiscord",
+   Name = "ScripHub",
    Callback = function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain")()
    end,
