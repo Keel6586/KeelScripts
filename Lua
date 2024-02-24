@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "KeelHub",
-   LoadingTitle = "KeelHub",
+   Name = "KeelHub KEYLESS",
+   LoadingTitle = "KeelHub Keyless",
    LoadingSubtitle = "by KEEL",
    ConfigurationSaving = {
       Enabled = true,
